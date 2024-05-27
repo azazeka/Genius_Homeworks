@@ -1,0 +1,149 @@
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-cyrillic_cyrillic-ext_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-cyrillic_cyrillic-ext_latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-900.woff2') format('woff2');
+}
+
+:root{
+    --main-color: #011C44;
+    --hero-accent-color: #2B7FFF;
+}
+
+html{
+    color: var(--main-color);
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+font-family: "Roboto";
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/*Beauty Zone Container*/
+   /* Links and Navigation*/
+header .link{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.link:hover{
+    color: var(--hero-accent-color);
+}
+
+   /*Button*/
+button{
+    background-color: var(--hero-accent-color);
+    color: white;
+    border-color: var(--hero-accent-color);
+    border-radius: 32px;
+    font-family: Roboto;
+}
+
+   /*Text in Header*/
+header{
+    font-size: 18px;
+}
+
+.get-consultation{
+    color: #4A4A4A;
+    font-size: 12px;
+}
+
+/* Tittles */
+.hero-title{
+    color: var(--hero-accent-color);
+    font-family: Play;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114px; /* 81.429% */
+    text-transform: capitalize;
+}
+
+h2{
+    font-family: Play;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+/*Change ypurself section*/
+.change-yourself-in-beauty-zone p{
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+h2 span{
+    color: var(--hero-accent-color);
+}
+
+.capitalized{
+    text-transform: capitalize;
+}
+
+.bold-text{
+    font-weight: 700;
+}
+
+/*Why People Choosing us section*/
+.why-people-choosing-us{
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+/*Our Procedures section*/
+.our-procedures{
+    font-size: 22px;
+    line-height: 1.18;
+}
+
+/*Footer*/
+footer{
+    background-color: var(--main-color);
+    font-size: 16px;
+}
+footer .link{
+    color: white;
+    text-decoration: none;
+}
+.data-secured{
+    color: #747272
+}
